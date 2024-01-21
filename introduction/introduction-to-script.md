@@ -15,3 +15,5 @@ Bitcoin Script is not a Turing-complete language. A Turing-complete language has
 * **Lack of I/O support**. Script has no mechanisms for interacting with external data sources or I/O devices.
 
 All these restrictions in Script were put in place to ensure security and prevent possible attacks on the Bitcoin network.
+
+***

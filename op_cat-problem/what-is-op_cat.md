@@ -1,5 +1,5 @@
 ---
-description: Basic definition of OP_CAT
+description: Definition of OP_CAT
 ---
 
 # 🐈 What is OP\_CAT?
@@ -27,11 +27,11 @@ OP\_CAT fails if there are fewer than two values on the stack, or if the combine
 An example of using OP\_CAT for beginners:
 
 ```
-Input Data: "Hello, " "world!"
+Input Data: "Hello, " "bitcoin world!"
 
 */ OP_CAT CALL /*
 
-Output Data: "Hello, world!"
+Output Data: "Hello, bitcoin world!"
 ```
 
 ***
@@ -46,3 +46,5 @@ The possibilities of using the OP\_CAT opcode in Bitcoin system scenarios are al
 * **Creating unique transaction labels.** OP\_CAT can be used to create unique transaction labels or identifiers based on the concatenation of various transaction attributes;
 * **Creating vaults.** OP\_CAT can be used to create systems in which a user is able to protect their funds from theft if their secret key is compromised by an attacker. \[[2](https://github.com/EthanHeilman/op\_cat\_draft/blob/main/cat.mediawiki)]
 * **Combining data for access control.** Within smart contracts, OP\_CAT can be used to create complex access control conditions that depend on a specific combination of data.
+
+***

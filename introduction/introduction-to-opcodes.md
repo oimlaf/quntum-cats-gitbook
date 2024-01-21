@@ -28,3 +28,5 @@ More interesting are the non-standard opcodes. It is important to note that many
 * **OP\_XOR -** performs an exclusive OR operation on the bytes in the stack. Disabled due to potential security threats.
 
 Bitcoin's opcode system is an integral part of its functionality, providing a toolkit for creating a variety of transaction scenarios, ensuring the flexibility and security of the network. Understanding their functionality is of key importance to developers, users, and everyone who interacts with this system. The evolution of opcodes reflects the dynamics of Bitcoin, and keeping up with these changes is essential to staying current in the use of the cryptocurrency.
+
+***
