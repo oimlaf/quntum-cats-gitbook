@@ -1,2 +1,2 @@
-# Page
+# 👋 About this GitBook
 
