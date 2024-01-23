@@ -8,15 +8,15 @@ In the context of Bitcoin Script, there are several opcodes (opcodes), each of w
 
 One of these is OP\_CAT, which took its place among opcodes. However, it was removed in 2010 due to concerns about its potential to contribute to scripts with exponentially increasing memory usage proportional to the size of the script, as well as a host of other implicit problems, which are described below.
 
-#### Performance
+### Performance
 
 OP\_CAT could cause performance issues due to inefficiencies in implementation. String concatenation can be a resource-intensive operation, resulting in additional overhead for smart contract execution and transaction processing.
 
-#### Ambiguity of use
+### Ambiguity of use
 
 The application of string concatenation in the context of smart contracts can often be unclear and lead to unexpected results. This complicates code analysis and verification, and makes it harder to predict its behavior.
 
-#### Security and vulnerabilities.
+### Security and vulnerabilities
 
 One of the main concerns that led to the abandonment of OP\_CAT was the potential security risks. The concatenation operation can be a source of vulnerabilities such as buffer overflows if proper precautions are not taken.
 

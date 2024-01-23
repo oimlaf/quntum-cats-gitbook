@@ -21,7 +21,7 @@ The working principle of OP\_CAT can be described in just three basic steps:
 3. **Result to stack.** The concatenation result is placed back on the stack, and the script continues execution based on this new stack state
 
 {% hint style="info" %}
-OP\_CAT fails if there are fewer than two values on the stack, or if the combined value is larger than the maximum script element size of 520 bytes.
+OP\_CAT fails if there are fewer than two values on the stack, or if the combined value is larger than the maximum script element size of 520 bytes (TapScript)
 {% endhint %}
 
 An example of using OP\_CAT for beginners:

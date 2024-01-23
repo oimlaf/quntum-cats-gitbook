@@ -23,7 +23,7 @@ Examples of standard opcodes include OP\_CHECKSIG, which verifies the transactio
 More interesting are the non-standard opcodes. It is important to note that many of them can change and evolve with the development of the Bitcoin protocol. Below are examples of non-standard opcodes that may have been used at different points in time:
 
 * **OP\_VER -** is designed to version scripts and support future changes. Disabled due to potential security threats;
-* **OP\_CAT и OP\_SPLIT -** are intended for string concatenation (concatenation) and string separation. Disabled due to performance and potential security risks;
+* **OP\_CAT and OP\_SPLIT -** are intended for string concatenation and string separation. Disabled due to performance and potential security risks;
 * **OP\_EVAL -** allows executing arbitrary scripts inside the current script. Disabled due to potential security risks;
 * **OP\_XOR -** performs an exclusive OR operation on the bytes in the stack. Disabled due to potential security threats.
 
