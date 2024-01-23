@@ -13,4 +13,7 @@
 * [🐈 What is OP\_CAT?](op\_cat-problem/what-is-op\_cat.md)
 * [😿 OP\_CAT Problem](op\_cat-problem/op\_cat-problem.md)
 * [🐱 OP\_CAT Solution](op\_cat-problem/op\_cat-solution.md)
-* [😺 OP\_CAT Possible uses](op\_cat-problem/op\_cat-possible-uses.md)
+
+## OP\_CAT Possible Uses
+
+* [😺 OP\_CAT Bonus Task](op\_cat-possible-uses/op\_cat-bonus-task.md)
